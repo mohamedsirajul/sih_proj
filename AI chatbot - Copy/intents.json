@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hey", "hi", "good day", "Greetings", "what's up?", "how is it going?", "hi there", "hey there"],
+      "responses": ["Hello!", "Hey!", "What can I do for you?", "Hi there!", "Greetings!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "name", "what's your name", "who are you", "what should I call you"],
+      "responses": ["You can call me HealthBot.", "I'm HealthBot.", "I'm your virtual health assistant."]
+    },
+    {
+      "tag": "services",
+      "patterns": ["what healthcare services do you provide?", "what can you help with?", "what do you do?"],
+      "responses": ["I can provide information on various medical conditions, symptoms, and treatments. I can also help you find nearby hospitals and clinics, schedule appointments, and answer general health-related questions."]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": ["I have some symptoms", "what could these symptoms mean?", "I don't feel well"],
+      "responses": ["I'm not a doctor, but I can try to help. Please tell me about your symptoms, and I'll do my best to provide some information."]
+    },
+    {
+      "tag": "findDoctor",
+      "patterns": ["Can you help me find a doctor?", "I need to see a doctor", "Find a doctor near me", "Recommend a medical specialist"],
+      "responses": ["Sure, I can help you with that. Please provide me with your location, and I'll find nearby doctors or medical specialists for you."]
+    },
+    {
+      "tag": "appointment",
+      "patterns": ["How can I schedule a medical appointment?", "Book a doctor's appointment", "Can you help me schedule a visit?", "Appointment booking"],
+      "responses": ["To schedule a medical appointment, I can assist you in finding a suitable doctor and available time slots. Please provide me with your location and the type of medical specialist you need to see."]
+    },
+    {
+      "tag": "emergency",
+      "patterns": ["I have a medical emergency!", "Help! It's an emergency!", "What should I do in an emergency?", "Emergency assistance"],
+      "responses": ["I'm not equipped to handle emergencies. Please call emergency services or go to the nearest hospital immediately. Stay calm and seek medical help as soon as possible."]
+    },
+    {
+      "tag": "medications",
+      "patterns": ["Tell me about a specific medication", "What are the side effects of a drug?", "Medication details", "Medicine information"],
+      "responses": ["I can provide general information about medications, but it's essential to consult a healthcare professional for specific details, including side effects, dosage, and interactions with other drugs."]
+    },
+    {
+      "tag": "healthyLiving",
+      "patterns": ["How can I live a healthier life?", "Tips for a healthy lifestyle", "Improving health", "Health advice"],
+      "responses": ["Living a healthy lifestyle involves regular exercise, a balanced diet, sufficient sleep, stress management, and avoiding harmful habits. If you have any specific health goals, I can provide personalized advice to help you achieve them."]
+    },
+    {
+      "tag": "mentalHealth",
+      "patterns": ["How can I improve my mental health?", "Dealing with stress", "Coping with anxiety", "Mental wellness tips"],
+      "responses": ["Improving mental health involves self-care, talking to a therapist or counselor, maintaining a support network, and engaging in activities that bring joy. If you're struggling, consider reaching out to a mental health professional for guidance and support."]
+    },
+    {
+      "tag": "thankYou",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": ["You're welcome!", "Glad I could assist!", "Anytime! If you have more questions, feel free to ask."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am leaving", "Have a Good Day", "bye", "see ya", "farewell"],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye", "Take care!"]
+    },
+    {
+      "tag": "invalid",
+      "patterns": ["", "gvsd", "asbhk", "12345"],
+      "responses": ["Sorry, I can't understand you.", "Please provide more information.", "Not sure I understand."]
+    },
+    {
+      "tag": "thankful",
+      "patterns": ["You're awesome", "Thank you so much", "You're the best", "Great help"],
+      "responses": ["Thank you! I'm here to assist you.", "I'm just doing my job. If you need more help, feel free to ask.", "Appreciate your kind words! Let me know if there's anything else I can do for you."]
+    },
+    {
+      "tag": "insurance",
+      "patterns": ["Do you provide information about health insurance?", "Tell me about health insurance plans", "Health coverage details"],
+      "responses": ["While I can provide some general information about health insurance, it's best to consult with insurance experts or visit insurance provider websites for specific plan details, coverage, and premiums."]
+    },
+    {
+      "tag": "nutrition",
+      "patterns": ["What are some healthy food options?", "Nutrition advice", "Healthy diet suggestions"],
+      "responses": ["A balanced diet includes fruits, vegetables, whole grains, lean proteins, and healthy fats. Avoid excessive sugar, salt, and processed foods. For personalized nutrition advice, consider consulting a registered dietitian."]
+    },
+    {
+      "tag": "exercise",
+      "patterns": ["What are some effective exercises?", "Exercise recommendations", "Fitness tips"],
+      "responses": ["Effective exercises include cardio workouts (e.g., running, cycling), strength training (e.g., weightlifting), and flexibility exercises (e.g., yoga). Choose activities you enjoy and consult a fitness trainer for personalized exercise recommendations."]
+    }
+  ]
+}
